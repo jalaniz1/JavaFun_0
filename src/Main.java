@@ -14,11 +14,11 @@ public class Main {
         }
         System.out.println(result);
         System.out.println("Now accessing a dog instance!");
-        Dog dog = null;
+       
         Dog dog2 = new Dog(); // Default constructor
         dog2 = new Dog("Charlie",3,"Brown","Terrier"); // Overwrite
         Dog dog3 = new Dog("C", 2,"B", "C");
-        dog = null;
+
         System.out.println("New " + Dog.ANIMAL +"\n"+dog2.g_Name()+"\n"+dog2.g_Age()
                 + "\n" + dog2.g_Color() +"\n"+dog2.g_Breed());
         System.out.println("Done with "+Dog.ANIMAL);
